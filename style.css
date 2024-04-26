@@ -197,10 +197,34 @@ p {
     max-width: 100%;
 }
 
-.videoSecDiv video {
+
+.img-video-section .videoSecDiv video {
     position: absolute;
     top: 70px;
     left: 64px;
     z-index: -1;
+    max-width: 100%;
+    max-height: 100%;
 }
 
+/* image kid style */
+
+.imgSec {
+    color: white;
+    border-bottom: 8px solid #222;
+    padding: 20px 144px;
+}
+
+.imgSec div h3 {
+    font-size: 50px;
+}
+
+.imgSec div p {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.imgSec img {
+    max-width: 100%;
+}
