@@ -168,3 +168,39 @@ p {
     color: white;
     padding: 22px;
 }
+
+/* image and video style */
+
+.img-video-section {
+    color: white;
+    border-bottom: 8px solid #222;
+    padding: 20px 150px;
+    text-align: left;
+}
+
+.img-video-section h3 {
+    font-size: 50px;
+    margin-top: 33px;
+}
+
+.img-video-section p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+.img-video-section .videoSecDiv {
+    position: relative;
+}
+
+.videoSecDiv img {
+    max-width: 100%;
+}
+
+.videoSecDiv video {
+    position: absolute;
+    top: 70px;
+    left: 64px;
+    z-index: -1;
+}
+
