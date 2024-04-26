@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+h1,
+h3,
+h2,
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 70px 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.header img {
+    width: 13%;
+}
+
+.header select {
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-right: 9px;
+    border-radius: 3px;
+}
+
+.header select option {
+    background-color: gray;
+}
+
+.header a {
+    padding: 8px 18px;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: #e20813;
+    color: white;
+    border-radius: 5px;
+}
+
+.header a:hover {
+    color: white;
+    text-decoration: none;
+}
