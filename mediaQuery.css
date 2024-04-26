@@ -1,5 +1,14 @@
 @media only screen and (max-width:992px) {
-    header img {
+    .header {
+        padding: 22px 50px 0px;
+    }
+    .header img {
         width: 20%;
+    }
+
+    .advertise-part {
+        margin: 0 12px;
+        color: white;
+        padding: 22px;
     }
 }
