@@ -328,3 +328,43 @@ p {
 .theItem:target .icon::after {
     transform: rotateY(90deg);
 }
+
+
+footer {
+    padding: 30px 100px;
+}
+
+footer a {
+    color: #757575;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+footer a:hover {
+    color: #757575;
+}
+
+footer ul li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+footer select {
+    outline: none;
+    background-color: transparent;
+    color: white;
+    padding: 8px 18px;
+    font-size: 15px;
+    margin-right: 20px;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+footer select option {
+    background-color: gray;
+}
+
+footer p {
+    color: #757575;
+    margin-top: 10px;
+}

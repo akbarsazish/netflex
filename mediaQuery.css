@@ -31,6 +31,14 @@
         max-width: 100%;
         max-height: 100%;
     }
+
+    .lastSec {
+        padding: 50px;
+    }
+
+    .list {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width:992px) {
