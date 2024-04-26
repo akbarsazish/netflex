@@ -228,3 +228,103 @@ p {
 .imgSec img {
     max-width: 100%;
 }
+
+.videoSecDiv2 {
+    position: relative;
+}
+
+.img-video-section .videoSecDiv2 img {
+    max-width: 100%;
+}
+
+.img-video-section .videoSecDiv2 video {
+    position: absolute;
+    top: 222px;
+    left: 122px;
+    z-index: -1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+/* faq part style */
+
+.lastSec {
+    padding: 50px 150px;
+    border-bottom: 8px solid #222;
+}
+
+.lastSec h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 50px 0;
+}
+
+.list {
+    width: 60%;
+    margin: auto;
+}
+
+.item {
+    background-color: #303030;
+    color: white;
+    cursor: pointer;
+    padding: 13px 20px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    font-size: 30px;
+    transition: 0.4s;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.theItem a {
+    color: white;
+    font-size: 30px;
+}
+
+.theItem a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.icon {
+    position: relative;
+}
+
+.icon::before,
+.icon::after {
+    content: '';
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: -100px;
+}
+
+.icon::after {
+    transform: rotate(90deg);
+    transition: all 0.5s ease-out;
+}
+
+.text {
+    background-color: #303030;
+    font-size: 20px;
+    padding: 5px 30px;
+    color: white;
+    display: none;
+}
+
+.theItem:target .text {
+    display: block;
+}
+
+.theItem:target .icon::after {
+    transform: rotateY(90deg);
+}
